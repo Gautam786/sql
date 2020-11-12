@@ -56,7 +56,7 @@ stages:
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'AzDO'
-        WebAppName: 'csweb03252020'
+        azureSubscription: 'Free Trial (41cb698d-ea2d-4b83-80ed-7f07ea63eadc)'
+        WebAppName: 'sana7867867'
         package: '$(Pipeline.Workspace)/**/*.zip'
         WebAppKind: WebApp
